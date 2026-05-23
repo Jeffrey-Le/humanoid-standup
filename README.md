@@ -50,7 +50,7 @@ The key insight: the existing `uph_cost` reward (z_torso / dt) incentivises heig
 
 ```bash
 # 1. Clone the repo
-git clone <repo-url>
+git clone https://github.com/Jeffrey-Le/humanoid-standup.git
 cd humanoid-standup
 
 # 2. Create and activate conda environment
