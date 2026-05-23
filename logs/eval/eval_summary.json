@@ -1,0 +1,38 @@
+[
+  {
+    "pose_class": "face_up",
+    "n_episodes": 100,
+    "success_rate": 1.0,
+    "mean_reward": 385410.34063486755,
+    "std_reward": 11875.526670127341,
+    "mean_max_z": 1.2278630220935307,
+    "std_max_z": 0.012030665275977287
+  },
+  {
+    "pose_class": "face_down",
+    "n_episodes": 100,
+    "success_rate": 1.0,
+    "mean_reward": 374848.14582546696,
+    "std_reward": 23698.442703621735,
+    "mean_max_z": 1.227243391267635,
+    "std_max_z": 0.0064550252487537265
+  },
+  {
+    "pose_class": "side_left",
+    "n_episodes": 100,
+    "success_rate": 1.0,
+    "mean_reward": 340809.2538302291,
+    "std_reward": 39501.94737335055,
+    "mean_max_z": 1.2304526422730557,
+    "std_max_z": 0.012976902629947933
+  },
+  {
+    "pose_class": "side_right",
+    "n_episodes": 100,
+    "success_rate": 0.99,
+    "mean_reward": 373039.57606835855,
+    "std_reward": 47500.59285515118,
+    "mean_max_z": 1.2237214845863489,
+    "std_max_z": 0.028757834917346122
+  }
+]

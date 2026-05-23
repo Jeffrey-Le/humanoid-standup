@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Conda (local env, not the yml spec)
+.conda/
+
+# Model checkpoints — keep only best_model.zip and vec_normalize.pkl
+models/humanoid_standup_*_steps.zip
+models/final_model.zip
+models/humanoid_standup_vecnormalize*.pkl
+
+# TensorBoard logs (large, not useful to evaluators)
+logs/ppo_*/
+logs/*.tfevents.*
+logs/evaluations.npz
+
+# Keep eval outputs
+!logs/eval/
+!logs/eval/eval_by_pose.png
+!logs/eval/trajectory_z.png
+!logs/eval/eval_summary.json
+
+# Videos — host externally, too large for Git
+logs/videos/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

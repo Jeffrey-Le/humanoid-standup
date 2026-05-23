@@ -1,0 +1,19 @@
+# Core simulation
+gymnasium[mujoco]>=0.29.0
+mujoco>=3.0.0
+
+# RL training
+stable-baselines3>=2.3.0
+torch>=2.2.0
+
+# Monitoring
+tensorboard>=2.15.0
+
+# Evaluation / video
+imageio>=2.34.0
+imageio-ffmpeg>=0.5.0
+
+# Utilities
+numpy>=1.24
+matplotlib>=3.8
+tqdm>=4.66
